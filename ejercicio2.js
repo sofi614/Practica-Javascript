@@ -1,6 +1,6 @@
-let nota = 7;
+let nota1 = 7;
 
-if(nota >= 6) {
+if(nota1 >= 6) {
     console.log("Aprobado");
 } else {
     console.log("Desaprobado");

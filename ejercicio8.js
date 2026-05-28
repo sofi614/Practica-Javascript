@@ -1,13 +1,13 @@
-const nota = [6 , 7 , 8 ,9 , 10];
+const notas = [6 , 7 , 8 ,9 , 10];
 let suma = 0;
 
-for (let i = 0 ; i < nota.length; i++) {
-    suma += nota[i];
+for (let i = 0 ; i < notas.length; i++) {
+    suma += notas[i];
 } 
  
-let promedio = suma / nota.length;
+let promedio = suma / notas.length;
 
-console.log ('Promedio: ${promedio}');
+console.log(`Promedio: ${promedio}`);
 
 if (promedio >= 6) {
     console.log("Aprobado");
